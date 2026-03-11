@@ -43,9 +43,21 @@ File: `houston_2017.xlsx`
 
 ## Repository Structure
 
-- `houston_analysing.ipynb` - Complete notebook analysis
-- `houston_2017.xlsx` - Input dataset
-- `README.md` - Project documentation
+```
+├── main.py                  # Entry point script
+├── README.md                # Project documentation
+├── data/
+│   └── houston_2017.xlsx    # Input dataset
+├── figures/
+│   ├── Linear-Regression.png
+│   └── Temperature-Trends-in-Houston.png
+├── notebooks/
+│   └── houston_analysing.ipynb  # Complete notebook analysis
+└── src/
+    ├── preprocess.py        # Data loading & Fahrenheit→Celsius conversion
+    ├── analysis.py          # Correlation, windiest days analysis
+    └── modeling.py          # Linear regression modeling
+```
 
 ## Run Locally
 
